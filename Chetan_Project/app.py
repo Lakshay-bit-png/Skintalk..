@@ -7,7 +7,7 @@ from PIL import Image
 
 app = Flask(__name__)
 
-model = YOLO("/Users/chetansanwariya/Desktop/SkinTalk_Project/ML/best (2) .pt")
+model = YOLO("ML/best (2) .pt")
 
 # Define a route to process image data
 @app.route('/predict', methods=['POST'])
