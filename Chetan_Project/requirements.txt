@@ -2,4 +2,4 @@ Flask==2.2.2
 Pillow==9.3.0
 torch==1.13.0
 torchvision==0.13.0
-ultralytics==8.0.206
+ultralytics==8.0.150
