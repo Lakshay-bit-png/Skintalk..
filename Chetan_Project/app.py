@@ -2,7 +2,6 @@ from flask import Flask, request, jsonify
 import json
 from ultralytics import YOLO
 from PIL import Image
-import os
 
 
 
